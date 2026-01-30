@@ -1,0 +1,8 @@
+theme = "fleet_dark"
+
+[editor]
+bufferline = "multiple"
+
+[editor.inline-diagnostics]
+cursor-line = "hint"
+
