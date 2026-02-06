@@ -2,9 +2,11 @@ theme = "fleet_dark"
 
 [editor]
 bufferline = "multiple"
+end-of-line-diagnostics = "warning"
 
 [editor.inline-diagnostics]
 cursor-line = "hint"
+other-lines = "error"
 
 [editor.statusline]
 right = ["diagnostics", "selections", "register", "position", "file-encoding", "file-line-ending", "file-indent-style"]
