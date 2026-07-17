@@ -12,5 +12,13 @@ other-lines = "disable"
 [editor.statusline]
 right = ["diagnostics", "selections", "register", "position", "file-encoding", "file-line-ending", "file-indent-style"]
 
+[keys.normal]
+H = "goto_previous_buffer"
+L = "goto_next_buffer"
+
 [keys.normal.space]
 B = [":echo %sh{git blame -L %{cursor_line},+1 %{buffer_name}}"]
+
+[keys.normal.g]
+p = "no_op"
+n = "no_op"
