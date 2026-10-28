@@ -1,6 +1,8 @@
 inherits = "fleet_dark"
 
-"ui.cursor" = { fg = "Gray 30", bg = "Gray 100" }
-"ui.cursor.primary" = { modifiers = ["reversed"] }
+"ui.background" = { bg = "Black"  }
+
+#"ui.cursor" = { fg = "Gray 30", bg = "Gray 100" }
+#"ui.cursor.primary" = { modifiers = ["reversed"] }
 
 "ui.menu.scroll" = { fg = "Gray 120", bg = "Gray 10" }
